@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @dataobj.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @dataobj.description %>
+</p>
+
+<%= link_to 'Edit', edit_dataobj_path(@dataobj) %> |
+<%= link_to 'Back', dataobjs_path %>
